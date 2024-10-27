@@ -1,0 +1,65 @@
+{
+    "output": {
+      "display_title": "System Snapshot",  
+      "enable_colors": true,               
+      "gradient": {
+        "enabled": true,
+        "colors": [
+          [255, 0, 0],                     
+          [255, 0, 230]                    
+        ]
+      }
+    },
+    "data_categories": {
+      "Operating_System": {
+        "enabled": true,                   
+        "fields": ["OS Name", "OS Version", "Kernel Version", "Architecture"]
+      },
+      "CPU_Information": {
+        "enabled": false,
+        "fields": ["Model", "Cores", "Threads", "Frequency"]
+      },
+      "GPU_Information": {
+        "enabled": true,
+        "fields": ["Model"]
+      },
+      "Memory_Information": {
+        "enabled": false,
+        "fields": ["Total", "Used", "Free", "Swap Total", "Swap Used"]
+      },
+      "Storage_Information": {
+        "enabled": false,
+        "display_individual_disks": false  
+      },
+      "Network_Information": {
+        "enabled": false,
+        "fields": ["IP Address", "Wi-Fi SSID", "MAC Address", "Hostname"]
+      },
+      "Shell_Information": {
+        "enabled": false,
+        "fields": ["Shell", "Uptime"]
+      },
+      "User_Information": {
+        "enabled": false,
+        "fields": ["Username", "Host"]
+      },
+      "Process_Information": {
+        "enabled": false,
+        "fields": ["Process Count", "High Usage Processes"]
+      },
+      "Battery_Information": {
+        "enabled": false,
+        "fields": ["Battery Percentage", "Charging Status"]
+      },
+      "Performance_Information": {
+        "enabled": false,
+        "fields": ["CPU Usage", "Memory Usage"]
+      },
+      "Display_Information": {
+        "enabled": false,
+        "fields": ["Resolution", "Monitor Count"]
+      }
+    },
+    "refresh_rate": 5
+  }
+  
